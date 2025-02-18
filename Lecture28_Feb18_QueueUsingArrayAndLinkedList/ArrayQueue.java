@@ -1,4 +1,4 @@
-package Lecture28_QueueUsingArrayAndLinkedList;
+package Lecture28_Feb18_QueueUsingArrayAndLinkedList;
 
 public class ArrayQueue {
     private int size;
@@ -77,7 +77,7 @@ public class ArrayQueue {
             return;
         }
 
-        if (front > rear) {
+        if (front >= rear) {
             for (int i = front; i < capacity; i++)
                 System.out.print(arr[i] + " ");
             for (int i = 0; i < rear; i++)

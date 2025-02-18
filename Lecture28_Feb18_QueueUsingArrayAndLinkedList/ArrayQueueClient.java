@@ -1,6 +1,6 @@
-package Lecture28_QueueUsingArrayAndLinkedList;
+package Lecture28_Feb18_QueueUsingArrayAndLinkedList;
 
-public class QueueClient {
+public class ArrayQueueClient {
     public static void main(String[] args) {
         ArrayQueue q = new ArrayQueue();
 
